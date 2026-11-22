@@ -1,0 +1,28 @@
+{
+    "geode": "6.0.0-beta.2",
+    "gd": {
+        "win": "*",
+        "android": "*",
+        "mac": "*",
+        "ios": "*"
+    },
+    "id": "5hut.menu-sin-piso",
+    "name": "Menu Sin Piso",
+    "version": "v1.0.0",
+    "developer": "5hut",
+    "description": "Oculta el piso del menu principal y extiende el fondo hacia abajo, para que no quede una franja negra.",
+    "settings": {
+        "hide-ground": {
+            "type": "bool",
+            "default": true,
+            "name": "Ocultar piso",
+            "description": "Oculta el piso del menu principal y estira el fondo hasta abajo."
+        },
+        "hide-line": {
+            "type": "bool",
+            "default": false,
+            "name": "Ocultar linea del horizonte",
+            "description": "Oculta tambien la linea brillante donde estaba el piso."
+        }
+    }
+}
